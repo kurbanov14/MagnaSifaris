@@ -66,11 +66,11 @@ namespace MagnaSifaris
                 string selectedColor = hfColor.Value.ToLower();
                 if (selectedColor == "red")
                 {
-                    totalCost += 2;
+                    totalCost *= 2;
                 }
                 else if (!string.IsNullOrEmpty(selectedColor))
                 {
-                    totalCost += 4;
+                    totalCost *= 4;
                 }
 
                 // Qat seçiminə görə əlavə qiymət
