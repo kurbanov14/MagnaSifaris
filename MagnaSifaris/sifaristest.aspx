@@ -71,7 +71,7 @@
         <div class="image-row">
             <div class="image-container">
                 <asp:Image ID="Image4" runat="server" CssClass="image-box" ImageUrl="~/Foto/p4.jpg" />
-                <asp:Button ID="Button4" runat="server" Text="Sifariş Et " CssClass="btn" />
+                <asp:Button ID="Button4" runat="server" Text="Sifariş Et 4cu butonu " CssClass="btn" />
             </div>
             <div class="image-container">
                 <asp:Image ID="Image5" runat="server" CssClass="image-box" ImageUrl="~/Foto/p5.jpeg" />
