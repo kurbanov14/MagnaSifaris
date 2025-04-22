@@ -118,7 +118,7 @@
     }
 
     .result {
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 18px;
         font-weight: 600;
         color: #2b2b2b;
@@ -191,8 +191,8 @@
             <asp:Image ID="ImageSelected" runat="server" CssClass="image-box" />
 
             <div class="info">
-                <h2>Seçilmiş Şəkil</h2>
-                <p>Burada əlavə məlumat göstərə bilərsiniz.</p>
+                <h2>3 şüşəli model</h2>
+                <p>Ölçülərə görə qiymət hesablayın.</p>
 
                 <!-- 7 Yuvarlak Renk Seçimi -->
                 <div class="color-selector">
@@ -205,10 +205,15 @@
                     <div class="color-circle" style="background-color: pink;" onclick="selectColor('pink')"></div>
                 </div>
 
+                 <!-- Renk Seçimi Label -->
+                <div class="result">
+                    <asp:Label ID="lblSelectedColor" runat="server" Text="Seçilen Renk: " />
+                </div>
+
                 <!-- 3 Adet TextBox -->
                 <div class="inputs">
                   <!-- En Seçimi Başlığı -->
-                    <label for="rb2" style="display:block; font-weight:bold; margin-bottom:5px;">Enini seçin:</label>
+                    <label for="rb2" style="display:block; font-weight:bold; margin-bottom:5px;">Qalınlığı seçin:</label>
 
                     <!-- RadioButton Seçenekleri - yan yana hizalı -->
                     <div style="display:flex; gap:15px; margin-bottom:10px;">
@@ -227,8 +232,8 @@
                     </div>
 
                     <!-- Diğer inputlar -->
-                    <input type="text" id="txtLength" placeholder="Uzunluk (cm)" runat="server" />
-                    <input type="text" id="txtHeight" placeholder="Hündürlük (cm)" runat="server" />
+                    <input type="text" id="txtLength" placeholder="Uzunluq (sm ilə)" runat="server" />
+                    <input type="text" id="txtHeight" placeholder="Hündürlük (sm ilə)" runat="server" />
 
                       
                    <asp:TextBox ID="txtSpecialPrice" placeholder="Pəncərə sayını qeyd edin" runat="server"></asp:TextBox>
@@ -259,8 +264,8 @@
                 <asp:Button ID="btnCalculate" runat="server" Text="Hesabla" CssClass="btn" OnClick="btnCalculate_Click" />
             </div>
             <div class="result">
-    <asp:Label ID="lblResult" runat="server" Text="Toplam Qiymət: 0" />
-</div>
+                <asp:Label ID="lblResult" runat="server" Text="Toplam Qiymət: 0" />
+            </div>
         </div>
 
         <!-- Confirmation Button outside the container -->
@@ -277,15 +282,26 @@
 
     <script type="text/javascript">
         function selectColor(color) {
-            // Update the HiddenField with the selected color
+            // HiddenField'e seçilen rengi yazıyoruz
             document.getElementById('<%= hfColor.ClientID %>').value = color;
-            alert('Seçilen Renk: ' + color);
-        }
+            
 
-        function showOrderMessage() {
-            // Display the confirmation message below the form
-            document.getElementById('confirmationMessage').style.display = 'block';
+            // Seçilen rengi label'da gösteriyoruz
+            document.getElementById('<%= lblSelectedColor.ClientID %>').innerText = 'Seçilen Renk: ' + color;
+    }
+
+    function showOrderMessage() {
+        // Confirmation mesajını gösteriyoruz
+        document.getElementById('confirmationMessage').style.display = 'block';
+    }
+
+    window.onload = function() {
+        // Sayfa her yüklendiğinde HiddenField'teki rengi alıp label'a yansıtıyoruz
+        var color = document.getElementById('<%= hfColor.ClientID %>').value;
+        if (color) {
+            document.getElementById('<%= lblSelectedColor.ClientID %>').innerText = 'Seçilen Renk: ' + color;
         }
+    }
     </script>
 </body>
 </html>
