@@ -15,6 +15,8 @@ namespace MagnaSifaris
             {
                 // Image2-nin yolunu session ilə ötürmək daha sağlamdır, amma sadəlik üçün burada sabit veririk
                 ImageSelected.ImageUrl = "~/Foto/p2.png";
+
+                rb2.Checked = true;
             }
         }
 
@@ -57,19 +59,19 @@ namespace MagnaSifaris
                 // Metrlərə çevir
                 double totalMeters = totalCm / 100.0;
 
-                // Rəngə görə metrin qiymətini dəyişdir
+                // Qiymət hesabla (meterPrice ilə)
+                double totalCost = totalMeters * meterPrice;
+
+                // Rəngə görə əlavə qiymət
                 string selectedColor = hfColor.Value.ToLower();
                 if (selectedColor == "red")
                 {
-                    meterPrice = 2; // Kırmızı seçilibsə, metrin qiyməti 2 manat olacaq
+                    totalCost += 2;
                 }
                 else if (!string.IsNullOrEmpty(selectedColor))
                 {
-                    meterPrice = 4; // Digər rənglərdə metrin qiyməti 4 manat olacaq
+                    totalCost += 4;
                 }
-
-                // Qiymət hesabla (meterPrice ilə)
-                double totalCost = totalMeters * meterPrice;
 
                 // Qat seçiminə görə əlavə qiymət
                 if (rb1qat.Checked)
@@ -80,7 +82,6 @@ namespace MagnaSifaris
                 {
                     totalCost += 60;
                 }
-
                 // Yeni əlavə edilmiş TextBoxun dəyəri ilə əlavə qiymət
                 if (!string.IsNullOrEmpty(txtSpecialPrice.Text))  // Yeni TextBoxun dəyərini yoxlamaq
                 {
