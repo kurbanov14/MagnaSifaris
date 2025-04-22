@@ -62,13 +62,30 @@ namespace MagnaSifaris
 
                 // Rəngə görə əlavə qiymət
                 string selectedColor = hfColor.Value.ToLower();
+                string colorMessage = string.Empty; // Rəng mesajını burada saxlayacaq
+
+                // Rəngin seçilib-seçilmədiyini yoxlayırıq
+                if (string.IsNullOrEmpty(selectedColor))
+                {
+                    lblResult.Text = "Rəng seçilməyib.";
+                    return; // Əgər rəng seçilməyibsə, davam etməyəcək
+                }
+
+                // Rəng və qiymətə görə əlavə qiymətləri hesablayırıq
                 if (selectedColor == "red")
                 {
                     totalCost += 2;
+                    colorMessage = "Rəng: Qırmızı (Əlavə Qiymət: 2 AZN)";
+                }
+                else if (selectedColor == "blue")
+                {
+                    totalCost += 4;
+                    colorMessage = "Rəng: Mavi (Əlavə Qiymət: 4 AZN)";
                 }
                 else if (!string.IsNullOrEmpty(selectedColor))
                 {
                     totalCost += 4;
+                    colorMessage = "Rəng: " + selectedColor + " (Əlavə Qiymət: 4 AZN)";
                 }
 
                 // Qat seçiminə görə əlavə qiymət
@@ -87,14 +104,23 @@ namespace MagnaSifaris
                     totalCost *= specialPrice;  // Toplam qiymətə əlavə et
                 }
 
-                // Nəticə
-                lblResult.Text = "Toplam Qiymət: " + totalCost.ToString("F2") + " AZN";
+                // Nəticə göstər
+                lblResult.Text = "Toplam Qiymət: " + totalCost.ToString("F2") + " AZN<br/>" + colorMessage;
+
+                // Debug məqsədilə konsola və ya səhifəyə yazdırmaq
+                Response.Write("Seçilən rəng: " + selectedColor + "<br/>");
+                Response.Write("Əlavə qiymət: " + colorMessage + "<br/>");
+
             }
             catch (Exception ex)
             {
                 lblResult.Text = "Xəta baş verdi: Olculeri duzgun daxil edin";
+                // Xəta mesajını ekrana çap edirik
+                lblResult.Text += "<br/>" + ex.Message;
             }
         }
+
+
 
 
 
