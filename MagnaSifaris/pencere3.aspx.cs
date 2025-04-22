@@ -52,24 +52,24 @@ namespace MagnaSifaris
                 double heightCm = Convert.ToDouble(txtHeight.Value);
 
                 // Toplam uzunluğu hesabla (cm)
-                double totalCm = (( lengthCm + heightCm) * 2) + 2 * heightCm;
+                double totalCm = ((lengthCm + heightCm) * 2) + 2 * heightCm;
 
                 // Metrlərə çevir
                 double totalMeters = totalCm / 100.0;
 
-                // Qiymət hesabla (meterPrice ilə)
-                double totalCost = totalMeters * meterPrice;
-
-                // Rəngə görə əlavə qiymət
+                // Rəngə görə metrin qiymətini dəyişdir
                 string selectedColor = hfColor.Value.ToLower();
                 if (selectedColor == "red")
                 {
-                    totalCost += 2;
+                    meterPrice = 2; // Kırmızı seçilibsə, metrin qiyməti 2 manat olacaq
                 }
                 else if (!string.IsNullOrEmpty(selectedColor))
                 {
-                    totalCost += 4;
+                    meterPrice = 4; // Digər rənglərdə metrin qiyməti 4 manat olacaq
                 }
+
+                // Qiymət hesabla (meterPrice ilə)
+                double totalCost = totalMeters * meterPrice;
 
                 // Qat seçiminə görə əlavə qiymət
                 if (rb1qat.Checked)
@@ -80,19 +80,20 @@ namespace MagnaSifaris
                 {
                     totalCost += 60;
                 }
-                 // Yeni əlavə edilmiş TextBoxun dəyəri ilə əlavə qiymət
-        if (!string.IsNullOrEmpty(txtSpecialPrice.Text))  // Yeni TextBoxun dəyərini yoxlamaq
-        {
-            double specialPrice = Convert.ToDouble(txtSpecialPrice.Text);  // TextBoxun dəyərini al
-            totalCost *= specialPrice;  // Toplam qiymətə əlavə et
-        }
+
+                // Yeni əlavə edilmiş TextBoxun dəyəri ilə əlavə qiymət
+                if (!string.IsNullOrEmpty(txtSpecialPrice.Text))  // Yeni TextBoxun dəyərini yoxlamaq
+                {
+                    double specialPrice = Convert.ToDouble(txtSpecialPrice.Text);  // TextBoxun dəyərini al
+                    totalCost *= specialPrice;  // Toplam qiymətə əlavə et
+                }
 
                 // Nəticə
                 lblResult.Text = "Toplam Qiymət: " + totalCost.ToString("F2") + " AZN";
             }
             catch (Exception ex)
             {
-                lblResult.Text = "Xəta baş verdi: Olculeri duzgun daxil edin" ;
+                lblResult.Text = "Xəta baş verdi: Olculeri duzgun daxil edin";
             }
         }
 

@@ -107,10 +107,6 @@ namespace MagnaSifaris
                 // Nəticə göstər
                 lblResult.Text = "Toplam Qiymət: " + totalCost.ToString("F2") + " AZN<br/>" + colorMessage;
 
-                // Debug məqsədilə konsola və ya səhifəyə yazdırmaq
-                Response.Write("Seçilən rəng: " + selectedColor + "<br/>");
-                Response.Write("Əlavə qiymət: " + colorMessage + "<br/>");
-
             }
             catch (Exception ex)
             {
@@ -119,7 +115,6 @@ namespace MagnaSifaris
                 lblResult.Text += "<br/>" + ex.Message;
             }
         }
-
 
 
 
