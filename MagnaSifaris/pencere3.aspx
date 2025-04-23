@@ -284,7 +284,7 @@
         function selectColor(color) {
             // HiddenField'e seçilen rengi yazıyoruz
             document.getElementById('<%= hfColor.ClientID %>').value = color;
-            
+
 
             // Seçilen rengi label'da gösteriyoruz
             document.getElementById('<%= lblSelectedColor.ClientID %>').innerText = 'Seçilen Renk: ' + color;
@@ -300,8 +300,8 @@
         var color = document.getElementById('<%= hfColor.ClientID %>').value;
         if (color) {
             document.getElementById('<%= lblSelectedColor.ClientID %>').innerText = 'Seçilen Renk: ' + color;
+            }
         }
-    }
     </script>
 </body>
 </html>

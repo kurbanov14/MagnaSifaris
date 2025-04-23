@@ -12,7 +12,7 @@
         background-color: #f0f2f5;
     }
 
-    .container {
+    .container {    
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
