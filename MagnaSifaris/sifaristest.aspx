@@ -55,30 +55,32 @@
 <body>
     <form id="form1" runat="server">
         <div class="image-row">
+          
             <div class="image-container">
-                <asp:Image ID="Image1" runat="server" CssClass="image-box" ImageUrl="~/Foto/p1.png" />
+                <asp:Image ID="Image1" runat="server" CssClass="image-box" ImageUrl="~/Foto/agpencere1.png" />
                 <asp:Button ID="Button1" runat="server" Text="Sifariş Et " CssClass="btn" />
             </div>
-            <div class="image-container">
-                <asp:Image ID="Image2" runat="server" CssClass="image-box" ImageUrl="~/Foto/p2.png" />
-                <asp:Button ID="Button2" runat="server" Text="Sifariş Et " CssClass="btn" />
-            </div>
+              <div class="image-container">
+                  <asp:Image ID="Image2" runat="server" CssClass="image-box" ImageUrl="~/Foto/ag1.png" />
+                  <asp:Button ID="Button2" runat="server" Text="Sifariş Et " CssClass="btn" />
+              </div>
+              <div class="image-container">
+              <asp:Image ID="Image4" runat="server" CssClass="image-box" ImageUrl="/Foto/tekpencere.jpg" />
+              <asp:Button ID="Button4" runat="server" Text="Sifariş Et " CssClass="btn" />
+          </div>
+          
+        </div>
+        <div class="image-row">              
             <div class="image-container">
                 <asp:Image ID="Image3" runat="server" CssClass="image-box" ImageUrl="~/Foto/p3yeni.png" />
                 <asp:Button ID="Button3" runat="server" Text="Sifariş Et " CssClass="btn" />
-            </div>
-        </div>
-        <div class="image-row">
+            </div>          
             <div class="image-container">
-                <asp:Image ID="Image4" runat="server" CssClass="image-box" ImageUrl="~/Foto/p4.jpg" />
-                <asp:Button ID="Button4" runat="server" Text="Sifariş Et 4cu butonu deyisdim " CssClass="btn" />
-            </div>
-            <div class="image-container">
-                <asp:Image ID="Image5" runat="server" CssClass="image-box" ImageUrl="~/Foto/p5.jpeg" />
+                <asp:Image ID="Image5" runat="server" CssClass="image-box" ImageUrl="~/Foto/3-2pencere.jpeg" />
                 <asp:Button ID="Button5" runat="server" Text="Sifariş Et " CssClass="btn" />
             </div>
             <div class="image-container">
-                <asp:Image ID="Image6" runat="server" CssClass="image-box" ImageUrl="~/Foto/p4yeni.png" />
+                <asp:Image ID="Image6" runat="server" CssClass="image-box" ImageUrl="~/Foto/qapiag.png" />
                 <asp:Button ID="Button6" runat="server" Text="Sifariş Et " CssClass="btn" />
             </div>
         </div>

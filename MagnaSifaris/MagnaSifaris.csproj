@@ -99,16 +99,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="Foto\3-2pencere.jpeg" />
+    <Content Include="Foto\ag1.png" />
+    <Content Include="Foto\agpencere1.png" />
+    <Content Include="Foto\altinmese1.png" />
+    <Content Include="Foto\altinmesepencere1.png" />
+    <Content Include="Foto\antrasit1.png" />
+    <Content Include="Foto\antrasitpencere1.png" />
+    <Content Include="Foto\chat2pencere.png" />
+    <Content Include="Foto\koyumese1.png" />
+    <Content Include="Foto\koyumesepencere1.png" />
     <Content Include="Foto\p2.png" />
     <Content Include="Foto\p3.jpg" />
     <Content Include="Foto\p3yeni.png" />
-    <Content Include="Foto\p4.jpg" />
-    <Content Include="Foto\p4yeni.png" />
-    <Content Include="Foto\p5.jpeg" />
-    <Content Include="Foto\p6.jpg" />
-    <Content Include="pencere2.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Foto\qapi2.jpg" />
+    <Content Include="Foto\qapi3.png" />
+    <Content Include="Foto\qapi4.png" />
+    <Content Include="Foto\qapiag.png" />
+    <Content Include="Foto\qapialtinmese.png" />
+    <Content Include="Foto\qapiantrasit.png" />
+    <Content Include="Foto\qapikoyumese.png" />
+    <Content Include="Foto\suseliqapiag.png" />
+    <Content Include="Foto\suseliqapialtinmese.png" />
+    <Content Include="Foto\suseliqapiantrasit.png" />
+    <Content Include="Foto\suseliqapikoyumese.png" />
+    <Content Include="Foto\tekpencere.jpg" />
+    <Content Include="pencere1.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -126,18 +142,14 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="Foto\1.jpg" />
-    <Content Include="Foto\2.jpg" />
-    <Content Include="Foto\3.jpg" />
-    <Content Include="Foto\4.jpg" />
-    <Content Include="Foto\5.jpg" />
-    <Content Include="Foto\6.jpg" />
-    <Content Include="Foto\p1.png" />
     <Content Include="Foto\p2.jpeg" />
     <Content Include="Global.asax" />
+    <Content Include="pencere2.aspx" />
     <Content Include="pencere3.aspx" />
+    <Content Include="pencere4.aspx" />
+    <Content Include="pencere5.aspx" />
+    <Content Include="Qapi.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -202,37 +214,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="pencere1.aspx.cs">
+      <DependentUpon>pencere1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="pencere1.aspx.designer.cs">
+      <DependentUpon>pencere1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="pencere2.aspx.cs">
       <DependentUpon>pencere2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="pencere2.aspx.designer.cs">
       <DependentUpon>pencere2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="pencere3.aspx.cs">
       <DependentUpon>pencere3.aspx</DependentUpon>
@@ -241,7 +239,28 @@
     <Compile Include="pencere3.aspx.designer.cs">
       <DependentUpon>pencere3.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pencere4.aspx.cs">
+      <DependentUpon>pencere4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pencere4.aspx.designer.cs">
+      <DependentUpon>pencere4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pencere5.aspx.cs">
+      <DependentUpon>pencere5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pencere5.aspx.designer.cs">
+      <DependentUpon>pencere5.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qapi.aspx.cs">
+      <DependentUpon>Qapi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Qapi.aspx.designer.cs">
+      <DependentUpon>Qapi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="sifaristest.aspx.cs">
       <DependentUpon>sifaristest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

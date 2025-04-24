@@ -1,0 +1,144 @@
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\MagnaSifaris.dll.config
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\MagnaSifaris.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\MagnaSifaris.pdb
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\csc.exe
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\csc.exe.config
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\csc.rsp
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\csi.exe
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\csi.exe.config
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\csi.rsp
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.AppContext.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Console.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.Compression.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Net.Http.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Net.Sockets.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.ValueTuple.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.XPath.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\vbc.exe
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\vbc.exe.config
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\vbc.rsp
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\VBCSCompiler.exe
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Antlr3.Runtime.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Newtonsoft.Json.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\System.Web.Optimization.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\WebGrease.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\System.Web.Optimization.xml
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Newtonsoft.Json.xml
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Antlr3.Runtime.pdb
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.csproj.AssemblyReference.cache
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.csproj.CoreCompileInputs.cache
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSif.CA0EB119.Up2Date
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.dll
+C:\Users\cavidqurbanov\source\repos\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.pdb
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\MagnaSifaris.dll.config
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\MagnaSifaris.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\MagnaSifaris.pdb
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\csc.exe
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\csc.exe.config
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\csc.rsp
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\csi.exe
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\csi.exe.config
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\csi.rsp
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.AppContext.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Console.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.Compression.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Net.Http.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.ValueTuple.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\vbc.exe
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\vbc.exe.config
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\vbc.rsp
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Antlr3.Runtime.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Newtonsoft.Json.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\System.Web.Optimization.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\WebGrease.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\System.Web.Optimization.xml
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Newtonsoft.Json.xml
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Antlr3.Runtime.pdb
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.csproj.AssemblyReference.cache
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.csproj.CoreCompileInputs.cache
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSif.CA0EB119.Up2Date
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.dll
+C:\Users\Elcan Aslanov - CTI\Desktop\MagnaSifaris\MagnaSifaris\MagnaSifaris\obj\Debug\MagnaSifaris.pdb
