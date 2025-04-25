@@ -320,7 +320,7 @@
                    <br />
                   <div class="radio-group">
                     <label class="custom-radio">
-                          <asp:RadioButton ID="rb1qat" runat="server" GroupName="secim" CssClass="radio-btn" />
+                          <asp:RadioButton ID="rb1qat" runat="server" GroupName="secim" CssClass="radio-btn"  />
                           <span>Sadə</span>
                         
 
