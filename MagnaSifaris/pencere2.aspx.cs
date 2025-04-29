@@ -222,32 +222,32 @@ namespace MagnaSifaris
                     totalCost *= specialPrice;  // Toplam qiymətə əlavə et
                 }
 
-                double uzunluqSm = Convert.ToDouble(txtLength.Value);
+                double EnSm = Convert.ToDouble(txtLength.Value);
                 double hundurlukSm = Convert.ToDouble(txtHeight.Value);
                 double mehsulSayiGoster = Convert.ToDouble(txtSpecialPrice.Text);
 
-                double uzunluqMetr = uzunluqSm / 100;
+                double EnMetr = EnSm / 100;
                 double hundurlukMetr = hundurlukSm / 100;
 
-                // Ümumi uzunluq (sm olaraq)
-                double umumilikdeUzunluqSm = uzunluqMetr * hundurlukMetr;
+                // Ümumi En (sm olaraq)
+                double umumilikdeEnSm = EnMetr * hundurlukMetr;
                
 
-                string acilistipi = rb1qat.Checked ? "Ciftli" : rb2qat.Checked ? "Ciftsiz" : "Seçilmedi";
+                string acilistipi = rb1qat.Checked ? "Ciftli (Əlavə 20 manat)" : rb2qat.Checked ? "Ciftsiz" : "Seçilmedi";
 
 
                 lblResult.Text =
-                     "<div class='order-summary'>" +
-                         "<div class='order-item'><strong>Qalınlığı və ya modeli:</strong> " + qalinliqMesaji + "</div>" +
-                         "<div class='order-item'><strong>Rəng Seçimi:</strong> " + colorMessage + "</div>" +
-                         "<div class='order-item'><strong>Uzunluq:</strong> " + uzunluqMetr.ToString("F0") + " metr</div>" +
-                         "<div class='order-item'><strong>Hündürlük:</strong> " + hundurlukMetr.ToString("F0") + " metr</div>" +
-                         "<div class='order-item'><strong>KvMetr:</strong> " + umumilikdeUzunluqSm.ToString("F0") + " kvMetr</div>" +
-                         "<div class='order-item'><strong>Açılış tipi:</strong> " + acilistipi + "</div>" +
-                         "<div class='order-item'><strong>Məhsul Sayı:</strong> " + mehsulSayiGoster.ToString("F0") + " Ədəd</div>" +
-                         "<div class='order-item'><strong>Toplam Qiymət:</strong> " + totalCost.ToString("F0") + " AZN</div>" +
-                         
-                     "</div>";
+                    "<div class='order-summary'>" +
+                        "<div class='order-item'><strong>Qalınlığı və ya modeli:</strong> " + qalinliqMesaji + "</div>" +
+                        "<div class='order-item'><strong>Rəng Seçimi:</strong> " + colorMessage + "</div>" +
+                        "<div class='order-item'><strong>En:</strong> " + EnMetr.ToString("F2") + " metr</div>" +
+                        "<div class='order-item'><strong>Hündürlük:</strong> " + hundurlukMetr.ToString("F2") + " metr</div>" +
+                        "<div class='order-item'><strong>KvMetr:</strong> " + umumilikdeEnSm.ToString("F2") + " kvMetr</div>" +
+                        "<div class='order-item'><strong>Açılış tipi:</strong> " + acilistipi + "</div>" +
+                        "<div class='order-item'><strong>Məhsul Sayı:</strong> " + mehsulSayiGoster.ToString("F2") + " Ədəd</div>" +
+                        "<div class='order-item'><strong>Toplam Qiymət:</strong> " + totalCost.ToString("F2") + " AZN</div>" +
+
+                    "</div>";
 
 
 

@@ -291,7 +291,7 @@
                           </label>
                       </div>
                     <!-- Diğer inputlar -->
-                    <input type="text" id="txtLength" placeholder="Uzunluq (sm ilə)" runat="server" />
+                    <input type="text" id="txtLength" placeholder="En (sm ilə)" runat="server" />
                     <input type="text" id="txtHeight" placeholder="Hündürlük (sm ilə)" runat="server" />
 
                       
@@ -302,7 +302,7 @@
                   <div class="radio-group">
                     <label class="custom-radio">
                           <asp:RadioButton ID="rb1qat" runat="server" GroupName="secim" CssClass="radio-btn" />
-                          <span>Ciftli</span>
+                          <span>Ciftli (Əlavə 20 manat)</span>
                         
 
                         </label>
@@ -362,16 +362,16 @@
             // Renk seçimine göre resim yolu belirliyoruz
             switch (color) {
                 case 'white':
-                    imagePath = '~/Foto/agpencere1.png';
+                    imagePath = '~/Foto/pencereag1.png';
                     break;
                 case 'antrasit':
-                    imagePath = '~/Foto/antrasitpencere1.png';
+                    imagePath = '~/Foto/pencereantrasit1.png';
                     break;
                 case 'altunmese':
-                    imagePath = '~/Foto/altinmesepencere1.png';
+                    imagePath = '~/Foto/pencerealtinmese1.png';
                     break;
                 case 'koyumese':
-                    imagePath = '~/Foto/koyumesepencere1.png';
+                    imagePath = '~/Foto/pencerekoyumese1.png';
                     break;
             }
 

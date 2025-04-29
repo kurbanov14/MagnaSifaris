@@ -14,7 +14,7 @@ namespace MagnaSifaris
             if (!IsPostBack)
             {
                 // Image2-nin yolunu session ilə ötürmək daha sağlamdır, amma sadəlik üçün burada sabit veririk
-                ImageSelected.ImageUrl = "~/Foto/agpencere1.png";
+                ImageSelected.ImageUrl = "~/Foto/pencereag1.png";
 
                 rb2.Checked = true;
             }
@@ -233,19 +233,19 @@ namespace MagnaSifaris
                 double umumilikdeUzunluqSm = uzunluqMetr * hundurlukMetr;
 
 
-                string acilistipi = rb1qat.Checked ? "Ciftli" : rb2qat.Checked ? "Ciftsiz" : "Seçilmedi";
+                string acilistipi = rb1qat.Checked ? "Ciftli (Əlavə 20 manat)" : rb2qat.Checked ? "Ciftsiz" : "Seçilmedi";
 
 
                 lblResult.Text =
                      "<div class='order-summary'>" +
                          "<div class='order-item'><strong>Qalınlığı və ya modeli:</strong> " + qalinliqMesaji + "</div>" +
                          "<div class='order-item'><strong>Rəng Seçimi:</strong> " + colorMessage + "</div>" +
-                         "<div class='order-item'><strong>Uzunluq:</strong> " + uzunluqMetr.ToString("F0") + " metr</div>" +
-                         "<div class='order-item'><strong>Hündürlük:</strong> " + hundurlukMetr.ToString("F0") + " metr</div>" +
-                         "<div class='order-item'><strong>KvMetr:</strong> " + umumilikdeUzunluqSm.ToString("F0") + " kvMetr</div>" +
+                         "<div class='order-item'><strong>En:</strong> " + uzunluqMetr.ToString("F2") + " metr</div>" +
+                         "<div class='order-item'><strong>Hündürlük:</strong> " + hundurlukMetr.ToString("F2") + " metr</div>" +
+                         "<div class='order-item'><strong>KvMetr:</strong> " + umumilikdeUzunluqSm.ToString("F2") + " kvMetr</div>" +
                          "<div class='order-item'><strong>Açılış tipi:</strong> " + acilistipi + "</div>" +
-                         "<div class='order-item'><strong>Məhsul Sayı:</strong> " + mehsulSayiGoster.ToString("F0") + " Ədəd</div>" +
-                         "<div class='order-item'><strong>Toplam Qiymət:</strong> " + totalCost.ToString("F0") + " AZN</div>" +
+                         "<div class='order-item'><strong>Məhsul Sayı:</strong> " + mehsulSayiGoster.ToString("F2") + " Ədəd</div>" +
+                         "<div class='order-item'><strong>Toplam Qiymət:</strong> " + totalCost.ToString("F2") + " AZN</div>" +
 
                      "</div>";
 
