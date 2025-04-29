@@ -14,7 +14,7 @@ namespace MagnaSifaris
             if (!IsPostBack)
             {
                 // Image2-nin yolunu session ilə ötürmək daha sağlamdır, amma sadəlik üçün burada sabit veririk
-                ImageSelected.ImageUrl = "~/Foto/ag1.png";
+                ImageSelected.ImageUrl = "~/Foto/agpencere1.png";
 
                 rb2.Checked = true;
             }

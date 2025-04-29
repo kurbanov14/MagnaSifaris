@@ -5,6 +5,8 @@
 
 <head runat="server">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
     <title>Sifaris Test</title>
     <style>
@@ -14,6 +16,9 @@
             height: 100%;
             overflow: hidden;
             font-family: Arial;
+            background-color: #f8f9fa; /* Açıq boz */
+
+
         }
 
         /* --- Loading ekranı --- */
@@ -67,21 +72,36 @@
             border: 1px solid #ccc;
         }
 
-        .btn {
-            margin-top: 8px;
-            width: 250px;
-            padding: 8px;
-            font-size: 14px;
-            cursor: pointer;
-            background-color: #007acc;
-            color: white;
-            border: none;
-            border-radius: 4px;
-        }
+/* Butonların ümumi tərtibatı */
+.btn {
+    margin-top: 8px;
+    width: 200px; /* Kiçik ölçü */
+    padding: 10px;
+    font-size: 14px; /* Daha kiçik şrift */
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #dc3545; /* Kırmızı əsas fon rəngi */
+    color: white; /* Beyaz yazı rəngi */
+    border: none;
+    border-radius: 4px; /* Küncləri yuvarlaqlaşdırılmış */
+    transition: all 0.3s ease; /* Hamısı üçün yumşaq keçid */
+    text-align: center;
+}
 
-        .btn:hover {
-            background-color: #005fa3;
-        }
+/* Hover vəziyyətində butonun dəyişməsi */
+.btn:hover {
+    background-color: #c82333; /* Hover zamanı tünd qırmızı fon rəngi */
+    transform: scale(1.05); /* Hover zamanı böyümə effekti */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kölgə effekti */
+    color: #f8f9fa; /* Hoverda yazı rəngi dəyişir */
+}
+
+/* Aktiv halda buton */
+.btn:active {
+    background-color: #bd2130; /* Tıklanmış halda daha tünd qırmızı */
+    transform: scale(1); /* Tıklanmış halda böyümə effekti sıfırlanır */
+}
+
 
         #loadingScreen {
     position: fixed;
@@ -112,92 +132,132 @@
     100% { opacity: 0.3; transform: scale(0.98); }
 }
 
-.footer {
-    padding-top: 5px;
-}
-
-.footer_top {
-    padding: 40px 0;
-    background: #fff;
-    color: #333;
-    border-top: 1px solid #333;
-}
-
-.footer_logo_box {
-    display: flex;
-}
-
-.footer_logo {
-    max-width: 100%;
-    height: auto;
-}
-
-.footer_text p {
-    font-weight: bold;
-    margin: 0 0 5px;
-}
-
-.footer_text span {
-    font-size: 14px;
-}
-
-.footer_hotline {
+footer {
+    width: 100%;
+    background-color: #f8f9fa; /* Açık gri arka plan */
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.footer_hotline a.hot_line {
-    color: red;
-    font-weight: bold;
-    text-decoration: none;
+.footer_top {
+    width: 100%;
+    padding: 10px 0;
+    height:100px;
+}
+
+.footer_logo_box img {
+    width: 150px;
+    height: auto;
+    margin-top:50px;
+    margin-left:150px;
+}
+
+.footer_text {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer_hotline {
+    font-size: 14px;
+    text-align: right;
 }
 
 .ul_social {
     list-style: none;
     display: flex;
-    gap: 10px;
-    padding-left: 0;
+    padding: 0;
     margin-top: 10px;
 }
 
-.ul_social li a {
-    font-size: 18px;
-    color: #333;
-    transition: 0.3s;
+.ul_social li {
+    margin-right: 10px;
 }
 
-.ul_social li a:hover {
-    color: red;
+.ul_social a {
+    font-size: 38px;
+    color: #333;
+    text-decoration: none;
+}
+
+.ul_social a:hover {
+    color: #007acc;
+}
+
+.site_by {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.site_by img {
+    width: 80px;
+    margin-left: 5px;
 }
 
 .footer_bottom {
     display: flex;
-    height: 30px;
-    margin:0;
-    margin-top: -5px;
+    justify-content: center; /* Yatayda ortalanma */
+    align-items: center; /* Şaquli olaraq ortalanma */
+    width: 100%; /* Footer'in enini tam doldurmasını sağlar */
+    margin-top: 20px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: center; /* Yatayda ortalanma */
+    align-items: center; /* Şaquli olaraq ortalanma */
+    width: 100%; /* Footer'ın enini tam doldurmasını sağlar */
+    margin-top: 55px;
 }
 
 .footer_bottom span {
-    flex: 1;
+    width: 400px; /* Dikdörtgenin genişliyi */
+    height: 20px; /* Dikdörtgenin hündürlüyü */
+    display: block;
+    margin: 0; /* Aralıqları sıfırladıq */
+     /* Küncləri yuvarlaqlaşdırmaq üçün */
 }
 
-.color_1 { background-color: #e53935; }
-.color_2 { background-color: #d81b60; }
-.color_3 { background-color: #8e24aa; }
-.color_4 { background-color: #3949ab; }
-.color_5 { background-color: #00897b; }
-
-.site_by {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 12px;
-    margin: 10px auto;
-    color: #999;
-    text-decoration: none;
-    justify-content: center;
+/* Rənglər */
+.color_1 {
+    background-color: #B92627; /* Mavi */
 }
+
+.color_2 {
+    background-color: #E82528; /* Yaşıl */
+}
+
+.color_3 {
+    background-color: #F27921; /* Narıncı */
+}
+
+.color_4 {
+    background-color: #FFCB0A; /* Bənövşəyi */
+}
+
+.color_5 {
+    background-color: #F3EC61; /* Qara */
+}
+
+   /* Navbar stilini əlavə edirik */
+    #navbar {
+        height: 30px;
+        background-color: #B92627;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #navbarLabel {
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
 
 
     </style>
@@ -211,7 +271,7 @@
                     document.getElementById('loadingScreen').style.display = 'none';
                     document.getElementById('mainContent').style.display = 'block';
                 }, 500);
-            }, 3000);
+            }, 400);
         });
     </script>
 </head>
@@ -219,6 +279,10 @@
    <!-- Loading ekranı -->
 <div id="loadingScreen">
     <div id="logoText">MAGNA</div>
+</div>
+
+    <div id="navbar">
+    <label id="navbarLabel">Güvənli, gözəl, keyfiyyətli – Magna ilə yeni bir həyat!</label>
 </div>
 
     <!-- Gerçek sayfa -->
@@ -231,83 +295,80 @@
                 </div>
                 <div class="image-container">
                     <asp:Image ID="Image2" runat="server" CssClass="image-box" ImageUrl="~/Foto/ag1.png" />
-                    <asp:Button ID="Button2" runat="server" Text="Sifariş Et " CssClass="btn" />
+                    <asp:Button ID="Button2" runat="server" Text="Daha ətraflı.. " CssClass="btn" />
                 </div>
                 <div class="image-container">
-                    <asp:Image ID="Image4" runat="server" CssClass="image-box" ImageUrl="/Foto/tekpencere.jpg" />
-                    <asp:Button ID="Button4" runat="server" Text="Sifariş Et " CssClass="btn" />
+                    <asp:Image ID="Image4" runat="server" CssClass="image-box" ImageUrl="/Foto/tek2.jpg" />
+                    <asp:Button ID="Button4" runat="server" Text="Daha ətraflı.. " CssClass="btn" />
                 </div>
             </div>
 
             <div class="image-row">
                 <div class="image-container">
-                    <asp:Image ID="Image3" runat="server" CssClass="image-box" ImageUrl="~/Foto/p3yeni.png" />
-                    <asp:Button ID="Button3" runat="server" Text="Sifariş Et " CssClass="btn" />
+                    <asp:Image ID="Image3" runat="server" CssClass="image-box" ImageUrl="~/Foto/penc.png" />
+                    <asp:Button ID="Button3" runat="server" Text="Daha ətraflı.." CssClass="btn" />
                 </div>
                 <div class="image-container">
-                    <asp:Image ID="Image5" runat="server" CssClass="image-box" ImageUrl="~/Foto/3-2pencere.jpeg" />
-                    <asp:Button ID="Button5" runat="server" Text="Sifariş Et " CssClass="btn" />
+                    <asp:Image ID="Image5" runat="server" CssClass="image-box" ImageUrl="~/Foto/pencere3-2teze.png" />
+                    <asp:Button ID="Button5" runat="server" Text="Daha ətraflı.. " CssClass="btn" />
                 </div>
                 <div class="image-container">
                     <asp:Image ID="Image6" runat="server" CssClass="image-box" ImageUrl="~/Foto/qapiag.png" />
-                    <asp:Button ID="Button6" runat="server" Text="Sifariş Et " CssClass="btn" />
+                    <asp:Button ID="Button6" runat="server" Text="Daha ətraflı.. " CssClass="btn" />
                 </div>
             </div>
         </form>
     </div>
 
-    <footer>
-    <div class="footer_top container_custom">
-        <div class="row flexBetween footer_top_row">
-            <div class="col-6 col-lg-3 p-0 footer_logo_box align-items-start justify-content-center">
-                <img class="footer_logo" src="http://www.magna.az/assets/img/icons/logo_red.png" alt="">
-            </div>
-            <div class="col-7 col-lg-4 footer_text">
-                <p>Магна / завод</p>
+   <footer>
+	<div class="footer_top container_custom">
+		<div class="row flexBetween footer_top_row">
+			<div class="col-6 col-lg-3 p-0 footer_logo_box align-items-start justify-content-center">
+				<img class="footer_logo" src="/Foto/magnalogofooter.png" alt=""/>
+
+			</div>
+			<div class="col-7 col-lg-4 footer_text">
+				                <p><b><h4>Magna</h4></b></p>
                 <span>
-                    Ул. Азербайджана 20, AZ7000, Нахчыван, Азербайджан<br>
+                    Azərbaycan 20 küçəsi, AZ7000, Naxçıvan, Azərbaycan<br>
                     Тел.:
-                    <a href="tel:+994365441315">+994365441315</a>
-                </span>
+                    <a href="tel: +994365441315">+994365441315</a>
+                </span>			</div>
+			                <div class="col-5 col-lg-3 footer_hotline">
+				                <span class="footer_span">
+					                Qaynar xətt &nbsp;
+                <a href="Tel: *3444" class="hot_line">*3444</a>				</span>
+				                <ul class="ul_social">
+					                <li>
+						                <a href="https://www.youtube.com/channel/UCJX8DBJk2rPwHfH6SwNPgkw">
+							<i class="fa-brands fa-youtube" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/magna.az"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a class="me-0" href="https://www.instagram.com/magna.az/">
+							<i class="fa-brands fa-instagram" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-6 col-lg-2 p-0 footer_logo_box d-flex align-items-end justify-content-end">
+    <img class="footer_logo_cahan footer_logo" src="/Foto/cahanlogo1.png" style="width: 120px; height: auto; margin-right:100px; margin-top:20px" alt=""/>
             </div>
-            <div class="col-5 col-lg-3 footer_hotline">
-                <span class="footer_span">
-                    Горячая линия &nbsp;
-                    <a href="tel:*3444" class="hot_line">*3444</a>
-                </span>
-                <ul class="ul_social">
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCJX8DBJk2rPwHfH6SwNPgkw">
-                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/magna.az">
-                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="me-0" href="https://www.instagram.com/magna.az/">
-                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-6 col-lg-2 p-0 footer_logo_box align-items-end justify-content-center">
-                <img class="footer_logo_cahan footer_logo" src="http://www.magna.az/assets/img/icons/cahan.png" alt="">
-            </div>
-        </div>
-    </div>
-    <a href="http://www.elementvs.com" class="site_by container_custom">
-        Site by <img src="http://www.magna.az/assets/img/icons/element_red.svg" alt=""> CAHAN
-    </a>
-    <div class="footer_bottom flexBetween">
-        <span class="color_1"></span>
-        <span class="color_2"></span>
-        <span class="color_3"></span>
-        <span class="color_4"></span>
-        <span class="color_5"></span>
-    </div>
+
+		</div>
+	</div>
+	<a href="http://www.elementvs.com" class="site_by container_custom">Site by  <img src="http://www.magna.az/assets/img/icons/element_red.svg" alt=""> Cahan</a>
+	
+       <div class="footer_bottom flexBetween">
+		<span class="color_1"></span>
+		<span class="color_2"></span>
+		<span class="color_3"></span>
+		<span class="color_4"></span>
+		<span class="color_5"></span>
+	</div>
 </footer>
 
 </body>

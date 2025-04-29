@@ -106,13 +106,16 @@
     <Content Include="Foto\altinmesepencere1.png" />
     <Content Include="Foto\antrasit1.png" />
     <Content Include="Foto\antrasitpencere1.png" />
+    <Content Include="Foto\cahanlogo1.png" />
     <Content Include="Foto\chat2pencere.png" />
     <Content Include="Foto\koyumese1.png" />
     <Content Include="Foto\koyumesepencere1.png" />
     <Content Include="Foto\magnalogo.png" />
+    <Content Include="Foto\magnalogofooter.png" />
     <Content Include="Foto\p2.png" />
     <Content Include="Foto\p3.jpg" />
     <Content Include="Foto\p3yeni.png" />
+    <Content Include="Foto\penc.png" />
     <Content Include="Foto\qapi2.jpg" />
     <Content Include="Foto\qapi3.png" />
     <Content Include="Foto\qapi4.png" />
@@ -124,6 +127,7 @@
     <Content Include="Foto\suseliqapialtinmese.png" />
     <Content Include="Foto\suseliqapiantrasit.png" />
     <Content Include="Foto\suseliqapikoyumese.png" />
+    <Content Include="Foto\tek2.jpg" />
     <Content Include="Foto\tekpencere.jpg" />
     <Content Include="pencere1.aspx" />
     <Content Include="Content\bootstrap-grid.css" />

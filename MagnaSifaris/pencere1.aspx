@@ -362,16 +362,16 @@
             // Renk seçimine göre resim yolu belirliyoruz
             switch (color) {
                 case 'white':
-                    imagePath = '~/Foto/ag1.png';
+                    imagePath = '~/Foto/agpencere1.png';
                     break;
                 case 'antrasit':
-                    imagePath = '~/Foto/antrasit1.png';
+                    imagePath = '~/Foto/antrasitpencere1.png';
                     break;
                 case 'altunmese':
-                    imagePath = '~/Foto/altinmese1.png';
+                    imagePath = '~/Foto/altinmesepencere1.png';
                     break;
                 case 'koyumese':
-                    imagePath = '~/Foto/koyumese1.png';
+                    imagePath = '~/Foto/koyumesepencere1.png';
                     break;
             }
 
